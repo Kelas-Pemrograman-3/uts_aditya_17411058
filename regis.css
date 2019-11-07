@@ -1,0 +1,31 @@
+body {
+    background-image: url(bg.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.kotak
+{
+    position : absolute;
+    top: 50;
+    left: 50;
+    transform: translate(110%,25%);
+    width: 400px;
+    height: 480px;
+    padding: 0px 40px;
+    box-sizing: border-box;
+    background: rgba (0,0,0,.5);
+
+}
+
+.kontainer
+{
+    background: rgba(241, 235, 235, 0.7);
+    margin: auto;
+    padding: 100;
+    width: 400px;
+    height:350px;
+    margin-top: 100px;
+    margin-left: auto;
+}

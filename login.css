@@ -1,0 +1,70 @@
+body{
+	font-family: sans-serif;
+	background-image: url(bg.jpg);
+}
+
+header{
+    background-image: url(im.jfif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ 
+h2{
+	text-align: center;
+	font-weight: 400;
+}
+.container{
+    width: 340px;
+    height: 400px;
+    background: rgb(87, 85, 85);
+    color: rgb(247, 238, 238);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.tulisanlogin{
+	text-align: center;
+
+	text-transform: uppercase;
+}
+ 
+.kotaklogin{
+	width: 350px;
+	background: white;
+
+	margin: 80px auto;
+	padding: 30px 20px;
+}
+ 
+label{
+	font-size: 11pt;
+}
+ 
+.formlogin{
+
+	box-sizing : border-box;
+	width: 100%;
+	padding: 10px;
+	font-size: 11pt;
+	margin-bottom: 20px;
+}
+ 
+.tombollogin{
+	background: #46de4b;
+	color: white;
+	font-size: 11pt;
+	width: 100%;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+ 
+.link{
+	color: #232323;
+	text-decoration: none;
+	font-size: 10pt;
+}

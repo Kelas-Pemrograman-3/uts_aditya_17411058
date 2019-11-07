@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="tabel.css">
+    <title>TabelData</title>
+</head>
+<nav>
+    <ul>
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">Data</a>
+            <ul>
+                <li>
+                    <a href="">Data Mahasiswa</a>
+                </li>
+                <li>
+                    <a href="">Data Dosen</a>
+                </li>
+                <li>
+                    <a href="">Data Matakuliah</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+                <a href="#">About</a>
+            </li>
+        </ul>
+ </nav>
+<body>
+
+<center>
+<h2>Tabel Data Mahasiswa</h2>
+</center>
+<a href="inputdata.html">
+    <button class = "button-utama"> Input Data</button>
+</a>
+<table border="1">
+    <thead>
+        <td>Nama Lengkap</td>
+        <td>Npm</td>
+        <td>Jurusan</td>
+        <td>Jenis Kelamin</td>
+        <td>Angkatan</td>
+    </thead>
+    <tr>
+            <td>Aditya Pratama Putra</td>
+            <td>17411058</td>
+            <td>sistem informasi</td>
+            <td>Laki-Laki</td>
+            <td>2017</td>
+            <td>
+                    <a href="#">
+                        <button class="button-utama">Edit</button>
+                    </a>
+                    <a href="#">
+                        <button onclick="return hapus()" class="button-danger">Delete</button>
+                    </a>
+                </td>
+    </tr>
+
+    <tr>
+            <td>Subro</td>
+            <td>1741109</td>
+            <td>laki-laki</td>
+            <td>Informatika</td>
+            <td>2019</td>
+            <td>
+                    <a href="#">
+                        <button class="button-utama">Edit</button>
+                    </a>
+                    <a href="#">
+                        <button onclick="return hapus()" class="button-danger">Delete</button>
+                    </a>
+                </td>
+    </tr>
+</form>
+</div>
+</body>
+<head>
+    <script>
+function hapus() {
+    let konfirmasi = confirm("apakah anda yakin?")
+    console.log(konfirmasi);
+    if(konfirmasi){
+        alert("data telah dihapus")
+    }else{
+        alert("proses telah dibatalkan")
+    }
+}
+</script>
+</body>
+</html>
